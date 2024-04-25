@@ -1,0 +1,29 @@
+.nav-item{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 3000;
+    font-style: normal;
+}
+
+@keyframes animacao-digitar {
+    from { width: 0; }
+    to { width: 60%; }
+  }
+
+.text-break{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: animacao-digitar 2s steps(40, end);
+}
+
+.text-center{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
